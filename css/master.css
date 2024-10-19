@@ -132,7 +132,54 @@ img {
     justify-content: space-between;
     font-family: 'Bebas Neue';
     font-size:25px;
+    margin-left:140px;
+    color:#D6C0B3;
 }
+.projectmain{
+    background-color: #493628;
+    padding-bottom:120px;
+}
+
+.work{
+    display:flex;
+    flex-direction: row;
+    margin-left: 140px;
+    gap:140px;
+}
+
+.surveyform .sf{
+    width:500px;
+    height:100%;
+}
+
+.landingpage .lp{
+    width:500px;
+    height: 100%;
+}
+
+.sftxt{
+    padding-top:15px;
+    font-size:25px;
+    font-family: 'Bebas Neue';
+    color:#E4E0E1;
+}
+
+.sftxtsm{
+    font-size:20px;
+}
+
+.lptxt{
+    padding-top:25px;
+    font-size:25px;
+    font-family:'Bebas Neue';
+    color:#E4E0E1;
+}
+
+.lptxtsm{
+    font-size: 20px;
+}
+
+
 
 
 
