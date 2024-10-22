@@ -138,6 +138,7 @@ img {
 .projectmain{
     background-color: #493628;
     padding-bottom:120px;
+    padding-top:50px;
 }
 
 .work{
@@ -178,6 +179,106 @@ img {
 .lptxtsm{
     font-size: 20px;
 }
+
+.Feedback{
+    display:flex;
+    flex-direction: row;
+    background-color:#D6C0B3;
+    padding-top:50px;
+    padding-bottom: 70px;
+}
+
+.contactinfo{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    margin-left: 140px;
+}
+
+.cnt{
+    font-family:'Bebas Neue';
+    padding-bottom: 25px;
+    font-size: 50px;
+    color:#E4E0E1;
+}
+
+.cnttext{
+    font-family:'Bebas Neue';
+    font-size:20px;
+    padding-bottom:60px;
+    color:#E4E0E1;
+}
+
+.contactform{
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+    color:#E4E0E1;
+    margin-right:516px;
+}
+
+.formbtn{
+    background-color:#E4E0E1;
+    color:#493628;
+    font-size: 15px;
+    border-radius: 5px;
+    padding:5px;
+    margin-top:20px;
+    margin-left:29px;  
+}
+
+.footer{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color:#E4E0E1;
+    padding-bottom: 40px;
+}
+
+.inner_footer{
+    width: 1200px;
+    display: block;
+    margin: 0 auto; 
+}
+
+.name_holderft{
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.name_holderft h1{
+    color: #493628;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Bebas Neue';
+    padding: 20px;
+}
+
+.navigationft{
+    float: right;
+    height: 100%;
+    padding: 20px;
+}
+
+.navigationft a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.copyright-text{
+    font-family: 'Bebas Neue';
+    text-align: center;
+    padding-top: 85px;
+}
+
+
+
+
+
 
 
 
