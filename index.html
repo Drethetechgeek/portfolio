@@ -97,22 +97,47 @@
     </div>
 
     <div class="Feedback">
-        <h1>Contact</h1>
-        <p1>I would love to hear how you discovered my portfolio, 
-        and anything I could do to improve upon my developer skills. 
-        Please fill in this form and I will get back to you as soon as I can.</p1>
-        <p3>Name</p3>
-        <p3>Email</p3>
-        <p3>Message</p3>
-        <button>Send Message</button>
+        <div class="contactinfo">
+            <h1 class="cnt">Contact</h1>
+            <p class="cnttext">I would love to hear how you discovered my portfolio.<br>
+            Feedback is highly encouraged. 
+            It will be used to help me identify<br>
+            what I could do to improve upon
+            my developer skills.<br> 
+            Please fill in this form and I will get back to you as soon as I can.</p>
+        </div>
+        <div class="contactforminfo">    
+            <form class="contactform">
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email</label><br>
+                <input type="text" id="email" name="name"><br>
+                <label for="message">Message</label><br>
+                <input type="message" id="message" name="name">
+            </form>
+            <button class="formbtn">Send Message</button>
+        </div>
     </div>
 </body>
 
 <footer>
-    <h3>DeandreWilson</h3>
-    <img src = alt="github icon">
-    <img src = alt="linkedin icon">
-    <p class="copyright-text">© Copyright 2024 Deandre T. Wilson </p>
+    <div class="footer">
+        <div class="inner_footer">
+            <div class="name_holderft">
+                <h1>DeandreWilson</h1>
+            </div>
+
+            <ul class="navigationft">
+                <a href="https://github.com/Drethetechgeek"><li><img src="/images/github_png.png" alt="github icon"> </li></a>
+                <a href="https://www.linkedin.com/in/deandre-wilson-b12a6a290"><li><img src="/images/linkedin_png.png" alt="linkedin icon"></li></a>
+            </ul>
+        </div>
+        <div class="copyright">
+            <p class="copyright-text">© Copyright 2024 Deandre T. Wilson </p>
+        </div>
+    </div>
+    
 </footer>
 
 <script src="js/main.js"></script>
+
